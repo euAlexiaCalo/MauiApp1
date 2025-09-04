@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Shell é o container principal de navegação do app -->
+<Shell 
+    x:Class="MauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1"
+    Title="Cadastramento">
+    <!-- Define a classe de código por trás do Shell (AppShell.xaml.cs) -->
+    <!-- Namespace padrão do MAUI -->
+    <!-- Namespace para recursos XAML como x:Name, x:Class -->
+    <!-- Cria um apelido 'local' para acessar classes do projeto -->
+    <!-- Título do Shell (aparece em algumas plataformas) -->
+
+    <!-- ShellContent representa uma página dentro do Shell -->
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <!-- Título da aba ou item de navegação -->
+    <!-- Indica que a página a ser exibida é MainPage -->
+    <!-- Nome da rota usada para navegação no código -->
+    
+</Shell>
